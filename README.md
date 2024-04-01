@@ -1,8 +1,21 @@
 # SD855-underclock-module
-magisk module / SD855(SM8150) underclock module
+### magisk / APATCH module / SD855(SM8150) underclock module
 
 
-This module will underclock your SD855. It underclocks the little core to 1.2Ghz, the middle core to 1.9Ghz and the prime core to 2.4Ghz.
+Underclock CPU and GPU with the underclock module.
 
+Verified to work on Pixel 4 / 4XL genuine latest firmware.
 
-Pixel 4 / 4 XL devices + confirmed to work on latest official firmware
+***
+### changed:
+gpu fixed to 285Mhz (max power level 4)  
+Little core => 1.2Ghz  
+Middle core => 1.9Ghz  
+Prime Core => 2.4Ghz
+***
+### Modified files:
+/sys/class/kgsl/kgsl-3d0/max_pwrlevel  
+/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq  
+/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq  
+/sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq  
+***
