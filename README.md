@@ -8,7 +8,7 @@ Verified to work on Pixel 4 / 4XL genuine latest firmware.
 
 ***
 ### changed:
-gpu fixed to 285Mhz (max power level 4)  
+gpu fixed to 257Mhz (max power level 4)  
 Little core => 1.2Ghz  
 Middle core => 1.9Ghz  
 Prime Core => 2.4Ghz
